@@ -10,9 +10,14 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
-def main():
-    print("questao 3")
+from math import *
 
+def main():
+    raio = float(input("Informe o raio: "))
+    area = pi * pow(raio,2)
+    diam = raio * 2
+    comp = 2 * pi * raio
+    print("com o raio ", raio, " obtemos a área de ",area,", diâmetro de ",diam,", e comprimento de ",comp)
 
     
 if __name__ == '__main__':

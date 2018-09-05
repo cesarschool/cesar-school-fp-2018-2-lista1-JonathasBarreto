@@ -11,7 +11,9 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
+    C = int(input("Informe a temperatura em celcius que deseja converter para fahrenheit: "))
+    F = ((9*C)/5)+32
+    print("o valor em fahrenheit é de: ",F, "F")
 
 
 

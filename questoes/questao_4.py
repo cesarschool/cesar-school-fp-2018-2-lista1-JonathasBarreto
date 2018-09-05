@@ -1,4 +1,4 @@
-## QUESTÃO 4 ##
+﻿## QUESTÃO 4 ##
 # Escreva um programa que pergunte a quantidade de km percorridos por um carro 
 # alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi 
 # alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e 
@@ -11,8 +11,10 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 4")
-
+    k = int(input("Informe os kilometros percorridos : "))
+    d = float(input("informe os dias percorridos pelo carro :"))
+    p = (0.15*k)+(60*d)
+    print("o proco a pagar ",p)
 
     
 if __name__ == '__main__':
